@@ -1,0 +1,7 @@
+
+   
+    use terraform:  0.11.14
+    
+    Run terraform init
+    Run terraform plan
+    Run terraform apply
