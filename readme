@@ -6,3 +6,6 @@
     Run terraform init
     Run terraform plan
     Run terraform apply
+
+
+ref; https://itnext.io/getting-started-with-kubernetes-using-ansible-and-terraform-741e6bb6ad7a
