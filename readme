@@ -7,5 +7,5 @@
     Run terraform plan
     Run terraform apply
 
-
+ref: https://www.linkbynet.com/produce-an-ansible-inventory-with-terraform
 ref; https://itnext.io/getting-started-with-kubernetes-using-ansible-and-terraform-741e6bb6ad7a
