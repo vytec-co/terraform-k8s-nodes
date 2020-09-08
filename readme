@@ -1,7 +1,13 @@
 
+   https://blog.gruntwork.io/installing-multiple-versions-of-terraform-with-homebrew-899f6d124ff9
    
     use terraform:  0.11.14
     
     Run terraform init
     Run terraform plan
     Run terraform apply
+
+ref: https://www.linkbynet.com/produce-an-ansible-inventory-with-terraform
+ref; https://itnext.io/getting-started-with-kubernetes-using-ansible-and-terraform-741e6bb6ad7a
+
+https://code-maze.com/ci-jenkins-docker/
