@@ -3,7 +3,11 @@ variable "aws_region_name" { default = "us-east-2" }
 provider "aws" {
   region = "us-east-2"
 }
-
+data "external" "myipaddr" {
+  # Pick one or the other. The second one requires an external script but uses DNS instead of https.
+  program = ["bash", "-c", "curl -s 'https://api.ipify.org?format=json'"]
+  #program = ["bash", "${path.module}/myipaddr.sh"]
+}
 data "aws_ami" "ubuntu" {
   most_recent = true
 
