@@ -1,7 +1,7 @@
 variable "ssh_key_name" {default = "ohio"}
-variable "aws_region_name" { default = "us-east-2" }
+variable "aws_region_name" { default = "us-west-2" }
 provider "aws" {
-  region = "us-east-2"
+  region = "us-west-2"
 }
 data "external" "myipaddr" {
   # Pick one or the other. The second one requires an external script but uses DNS instead of https.
