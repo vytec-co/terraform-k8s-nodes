@@ -1,5 +1,4 @@
 variable "ssh_key_name" {default = "ohio"}
-variable "aws_region_name" { default = "us-west-2" }
 provider "aws" {
   region = "us-west-2"
 }
